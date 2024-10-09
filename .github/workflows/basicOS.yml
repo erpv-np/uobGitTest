@@ -9,7 +9,7 @@ jobs:
     runs-on: Ubuntu- 20.04
 
     steps:
-    -  name: greeting steps
-      run:
+    - name: greeting steps
+      run: |
         echo "Hello World"
     
