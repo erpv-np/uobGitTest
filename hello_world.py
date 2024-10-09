@@ -1,4 +1,4 @@
 # hello.py
 
-def hello_world():
+def hello():
     return "Hello, World!"
