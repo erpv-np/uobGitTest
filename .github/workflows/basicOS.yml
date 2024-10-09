@@ -19,13 +19,13 @@ jobs:
       run:  |
         ls
 
-    # python install
-    - name:  Installing Python
-      uses:  actions/setup-python@v5
+    # this is where i install python
+    - name: Installing Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - name:  check version of python
-    - run:  |
+    - name: check version of python
+      run: |
         python --version
     
     
