@@ -1,4 +1,2 @@
-# hello.py
-
-def hello():
+def hello_world():
     return "Hello, World!"
