@@ -1,1 +1,4 @@
-print("Hello World! x 2 ")
+# hello.py
+
+def hello():
+    return "Hello, World!"
