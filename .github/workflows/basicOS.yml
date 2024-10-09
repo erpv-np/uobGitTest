@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
 
-Jobs: 
+jobs: 
   builds:
   # create vm with ubuntu OS
     runs-on: Ubuntu- 16.04
