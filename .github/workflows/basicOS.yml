@@ -5,7 +5,11 @@ on:
 
 Jobs: 
   builds:
-    runs-on:Ubuntu- 16.04
-    name: My Build
+  # create vm with ubuntu OS
+    runs-on: Ubuntu- 16.04
+
     steps:
+    - name: greeting steps
+      run:
+        echo "Hello World"
     
